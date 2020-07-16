@@ -1,6 +1,6 @@
 <template>
     <card v-bind:class="bgStatus" class="flex flex-col">
-<a :href="{{card.href}}" style="text-decoration: none;">
+<a :href="card.href" style="text-decoration: none;">
         <div>
             <div class="px-3 py-3">
                 <div class="position-absolute float-right">
